@@ -1,0 +1,54 @@
+.btn-success {
+    background-color: #66946a;
+    border-color: #66946a;
+}
+
+.btn-success:hover {
+    background-color: #578059;
+    border-color: #578059;
+}
+
+.btn-danger {
+    background-color: rgb(187, 95, 82);
+    border-color: rgb(187, 95, 82);
+}
+
+.btn-danger:hover {
+    background-color: rgb(170, 80, 68);
+    border-color: rgb(170, 80, 68);
+}
+
+.form-check-input.custom-switch:checked {
+    background-color: #509255 !important;
+    border-color: #509255 !important;
+}
+
+.form-check-input.custom-switch:not(:checked) {
+    background-color: rgb(187, 95, 82) !important;
+    border-color: rgb(187, 95, 82) !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") !important;
+}
+
+.form-check-input.custom-switch {
+    cursor: pointer;
+}
+
+.pagination .page-link {
+    background-color: #343a40;
+    border-color: #454d55;
+    color: #fff;
+}
+
+
+.pagination .page-item.active .page-link {
+    background-color: #66946a;
+    border-color: #66946a;
+    color: #fff;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: #343a40;
+    border-color: #454d55;
+    color: #6c757d;
+}
+
